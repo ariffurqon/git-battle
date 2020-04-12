@@ -1,11 +1,20 @@
 {
   "name": "git-battle",
   "version": "0.1.0",
-  "description": "",
+  "description": "This project is a \"Github Battle\" app to see the most popular repos for a variety of languages and battle two Github users who has the better profile.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ariffurqon/git-battle.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/ariffurqon/git-battle/issues"
+  },
+  "homepage": "https://github.com/ariffurqon/git-battle#readme"
 }
