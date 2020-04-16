@@ -4,7 +4,7 @@
   "description": "This project is a \"Github Battle\" app to see the most popular repos for a variety of languages and battle two Github users who has the better profile.",
   "main": "index.js",
   "scripts": {
-  	"build": "webpack",
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -19,6 +19,9 @@
   },
   "homepage": "https://github.com/ariffurqon/git-battle#readme",
   "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11"
   }

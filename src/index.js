@@ -1,3 +1,3 @@
-import greeting from './greet.js'
+import getGreeting from './greet.js'
 
-console.log(greeting)
+console.log(getGreeting('Sexy!'))
