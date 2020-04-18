@@ -1,3 +1,17 @@
-import getGreeting from './greet.js'
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-console.log(getGreeting('Sexy!'))
+class App extends React.Component {
+	render() {
+		return(
+			<div>
+				'Hi Sexy!'
+			</div>
+		)
+	}
+}
+
+ReactDOM.render(
+	<App />,
+	document.getElementById('app')
+)
