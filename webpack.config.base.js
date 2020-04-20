@@ -17,6 +17,16 @@ module.exports = {
 					presets: ['@babel/preset-env', '@babel/preset-react'],
 					plugins: ['@babel/plugin-proposal-class-properties']
 				}
+			},
+			{
+				test: /\.css$/,
+				use: ['style-loader', 'css-loader'],
+				exclude: /node_modules/
+			},
+			{
+				test: /\.svg$/,
+				use: ['svg-inline-loader'],
+				exclude: /node_modules/
 			}
 		]
 	},
