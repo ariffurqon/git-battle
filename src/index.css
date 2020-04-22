@@ -19,3 +19,37 @@ body {
 	max-width: 40em;
 	width: 88%;
 }
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 50px;
+}
+
+.flex-center {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-clear {
+    border: none;
+    background-color: transparent;
+}
+
+.nav-link {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: inherit;
+}
